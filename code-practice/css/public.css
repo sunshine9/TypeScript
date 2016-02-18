@@ -1,0 +1,69 @@
+/*通用类*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Microsoft Yahei", Adobe Heiti Std, Arial, sans-serif;
+    color: #363b3e;
+    background: #fff;
+    height: 1000px;
+}
+
+img {
+    border: none;
+}
+
+a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+em {
+    font-style: normal;
+}
+
+input {
+    outline: none;
+}
+
+input.sub,
+label {
+    border: none;
+    cursor: pointer;
+}
+
+div.clear {
+    font: 0px Arial;
+    line-height: 0;
+    height: 0;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: pf-regular;
+    src: url(../fonts/PingFang-SC-Regular.ttf);
+}
